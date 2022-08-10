@@ -18,3 +18,11 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+before('Before all tests', () => {
+    cy.setCookie('cymbio-automation', 'noFlags');
+});
+
+beforeEach('Before each test', () => {
+    cy.setCookie('cymbio-automation', 'noFlags');
+});
