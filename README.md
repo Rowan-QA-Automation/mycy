@@ -1,1 +1,1 @@
-# mycy
+# My Cypress Project
